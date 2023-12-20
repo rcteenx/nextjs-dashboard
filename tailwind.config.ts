@@ -11,6 +11,10 @@ const config: Config = {
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
+      fontFamily: {
+        inter: ['var(--font-inter)', 'sans-serif'],
+        lusitana: ['var(--font-lusitana)', 'sans-serif'],
+      },
       colors: {
         blue: {
           400: '#2589FE',
